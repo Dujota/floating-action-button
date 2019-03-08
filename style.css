@@ -1,0 +1,30 @@
+.container {
+  width: 60vw;
+  height: 4000px;
+  background-color: #f4f4f4;
+  margin: 0 auto;
+}
+
+.help {
+  position: fixed;
+
+  right: 25px;
+  bottom: 25px;
+  width: 56px;
+  padding: 16px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: black;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+
+  font-size: 3rem;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.help:hover {
+  transform: scale(1.2);
+}
